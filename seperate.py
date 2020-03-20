@@ -7,7 +7,7 @@ from pathlib import Path
 file_to_open = Path(
     r'C:/Users/Papalexandropoulos/Desktop/General/Workspace/BOM_Example/624I60026-120_BOM.xlsx')
 
-
+# Almost Done
 # excel_file = "624I60026-120_BOM.xlsx"
 df = pd.read_excel(file_to_open, sheet_name='624I60026-120')
 
